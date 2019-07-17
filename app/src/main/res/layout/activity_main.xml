@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"/>
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"/>
+    
+    <Button
+        android:id="@+id/btn_saveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+    <EditText
+        android:id="@+id/et_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter ID"/>
+
+    <Button
+        android:id="@+id/btn_DeleteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Data"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/btn_showData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Data in Log"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"/>
+
+    <EditText
+        android:id="@+id/et_name_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"/>
+
+    <EditText
+        android:id="@+id/et_description_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"/>
+
+    <Button
+        android:id="@+id/btn_updateData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Data"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"/>
+
+
+
+
+</LinearLayout>
